@@ -5,6 +5,6 @@ import renderer from 'react-test-renderer';
 describe("TimerButton component snapshot", () => {
     test("should create snapshot", () => {
     
-        expect().toMatchSnapshot();
+        expect(1).toMatchSnapshot();
     });
 });
